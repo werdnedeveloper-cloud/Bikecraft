@@ -27,6 +27,7 @@ h1, p {
 .introducao-texto {
     align-self: end;
     padding-bottom: 200px;
+    margin-bottom: 100px;
 }
 
 .introducao h1 {
@@ -38,6 +39,7 @@ h1, p {
 }
 
 .introducao img {
+    width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 4px;
@@ -61,6 +63,12 @@ h1, p {
     color: var(--cor-12);
 }
 
+@media (max-width: 1120px) {
+    .introducao-texto {
+        padding-top: 100px;
+    }
+}
+
 @media (max-width: 800px) {
 
     .introducao-bg {
@@ -70,6 +78,7 @@ h1, p {
 
     .introducao {
         padding-top: 30px;
+        text-align: center;
     }
 
     .introducao {
