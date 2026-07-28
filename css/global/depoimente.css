@@ -1,0 +1,84 @@
+@import "/css/global/cores.css";
+
+blockquote {
+    margin: 0px;
+}
+
+.depoimente {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: var(--cor-p1);
+    margin-top: 40px;
+}
+
+.imagem img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 2px;
+}
+
+.citacao {
+    padding: 40px 40px 80px 80px;
+    align-self: end;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.citacao blockquote {
+    margin: 0 0 16px 0;
+}
+
+.citacao p {
+    max-width: 32ch;
+    font-family: "Marriweather", serif;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    text-align: center;
+    margin: 0 auto 0 auto;
+    position: relative;
+}
+
+/* .citacaop p::before,
+.citacao p::after {
+    font-size: 5rem;
+    position: absolute;
+} */
+
+.citacao p::before {
+    content: '“';
+    color: var(--cor-p2);
+    font-size: 5rem;
+    position: absolute;
+    left: -50px;
+    top: -20px
+}
+
+.citacao p::after {
+    content: '”';
+    color: var(--cor-p2);
+    font-size: 5rem;
+    position: absolute;
+    bottom: -50px;
+}
+
+@media (max-width: 800px) {
+    .depoimente {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .imagem img {
+        max-height: 200px;
+    }
+
+    .citacao {
+        padding: 40px 20px;
+        justify-content: center;
+        text-align: center;
+    }
+}
