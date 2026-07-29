@@ -19,12 +19,13 @@ blockquote {
 }
 
 .citacao {
-    padding: 40px 40px 80px 80px;
-    align-self: end;
+    padding: 20px 50px;
+    align-self: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .citacao blockquote {
@@ -36,8 +37,8 @@ blockquote {
     font-family: "Marriweather", serif;
     font-style: italic;
     font-weight: 900;
-    font-size: 1.5rem;
-    line-height: 1.5;
+    font-size: 1.75rem;
+    line-height: 1.4;
     text-align: center;
     margin: 0 auto 0 auto;
     position: relative;
