@@ -23,7 +23,7 @@ img {
 }
 
 .header-menu {
-    gap: 40px;
+    gap: 28px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -86,11 +86,28 @@ a {
 
 @media (max-width: 600px) {
     .header-menu {
-        gap: 12px;
+        gap: 10px;
     }
 
     .header-menu a {
         padding: 8px 12px;
         font-size: 14px;
+    }
+}
+
+@media (max-width: 400px) {
+    .header-menu {
+        gap: 8px;
+        justify-content: center;
+    }
+
+    .header-menu a {
+        padding: 8px 10px;
+        font-size: 12px;
+    }
+
+    .header img {
+        width: 60px;
+        height: 15px;
     }
 }

@@ -2,13 +2,15 @@
 
 blockquote {
     margin: 0px;
+    padding: 0px;
 }
 
 .depoimente {
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-color: var(--cor-p1);
-    margin-top: 40px;
+    margin: 0;
+    padding: 0px;
 }
 
 .imagem img {
@@ -16,6 +18,7 @@ blockquote {
     height: 100%;
     object-fit: cover;
     border-radius: 2px;
+    padding: 0px;
 }
 
 .citacao {
@@ -33,7 +36,7 @@ blockquote {
 }
 
 .citacao p {
-    max-width: 32ch;
+    max-width: 50ch;
     font-family: "Marriweather", serif;
     font-style: italic;
     font-weight: 900;
@@ -53,10 +56,10 @@ blockquote {
 .citacao p::before {
     content: '“';
     color: var(--cor-p2);
-    font-size: 5rem;
+    font-size: 3em;
     position: absolute;
-    left: -50px;
-    top: -20px
+    left: -0.3em;
+    top: -0.30em;
 }
 
 .citacao p::after {
@@ -81,5 +84,36 @@ blockquote {
         padding: 40px 20px;
         justify-content: center;
         text-align: center;
+    }
+
+    .citacao p::before {
+        left: -15px;
+    }
+}
+
+@media (max-width: 600px) {
+    .citacao p::before {
+        left: -1.5rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .citacao p {
+        font-size: medium;
+        padding-left: 20px;
+    }
+    .citacao p::before {
+        left: 0rem;
+    }
+
+    .citacao p::after {
+        font-size: 2.5rem;
+        line-height: 1;
+        /* right: 0; */
+        /* bottom: -0.2em; */
+        /* top: auto; */
+        width: auto;
+        height: auto;
+        padding-bottom: 35px;
     }
 }

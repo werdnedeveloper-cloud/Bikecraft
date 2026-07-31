@@ -80,7 +80,7 @@
 }
 
 .link:hover {
-    color: var(--cor-0)
+    color: var(--cor-p3)
 }
 
 @media (max-width: 800px) {
@@ -119,5 +119,21 @@
 @media (max-width: 600px) {
     .tecnologia-vantangens {
         flex-direction: column;
+    }
+}
+
+@media (max-width: 400px) {
+    .tecnologia-conteudo span {
+        font-size: 20px;
+        margin-top: -40px;
+    }
+
+    .tecnologia-conteudo h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .tecnologia-conteudo p {
+        font-size: 20px;
     }
 }
