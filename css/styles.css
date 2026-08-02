@@ -13,4 +13,6 @@
 
 /* Termos */
 @import "/css/global/termos/titulo.css";
-@import "/css/global/termos/termos.css";
+
+/* Bicicletas */
+@import "/css/global/bicicletas/bicicletas.css";

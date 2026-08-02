@@ -1,13 +1,16 @@
 .titulo {
+    background-color: var(--cor-11);
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+
+.titulo-container {
     box-sizing: border-box;
     max-width: 1200px;
     padding-left: 20px;
     padding-right: 20px;
     margin-left: auto;
     margin-right: auto;
-    background-color: var(--cor-11);
-    padding-bottom: 60px;
-    padding-top: 60px;
 }
 
 .titulo p {
