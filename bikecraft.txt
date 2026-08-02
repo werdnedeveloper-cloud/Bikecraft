@@ -1,1 +1,5 @@
 CNAME bikecraft.com
+
+_github-pages-challenge-werdnedeveloper-cloud
+
+91737186aa3bf44323d82713996cad
