@@ -1,0 +1,51 @@
+.titulo {
+    box-sizing: border-box;
+    max-width: 1200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--cor-11);
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+
+.titulo p {
+    margin-bottom: 4px;
+}
+
+@media (max-width: 800px) {
+    .titulo {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .titulo p {
+        font-size: 1rem;
+        text-transform: lowercase;
+        font-width: 400;
+    }
+}
+
+.termos {
+    box-sizing: border-box;
+    max-width: 1200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 80px;
+    padding-bottom: 81px;
+}
+
+.termos h2 {
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.termos p {
+    max-width: 75ch;
+    margin-bottom: 24px;
+    margin-top: 40px;
+}
